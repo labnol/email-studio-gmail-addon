@@ -1,12 +1,12 @@
 {
-  "name": "email-studio-for-gmail",
+  "name": "email-studio-gmail-addon",
   "version": "1.0.0",
   "description": "Email Studio for Gmail",
   "author": "Amit Agarwal",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/labnol/gmail-studio.git"
+    "url": "https://github.com/labnol/email-studio-gmail-addon.git"
   },
   "scripts": {
     "build": "webpack",
