@@ -1,0 +1,65 @@
+{
+  "timeZone": "GMT",
+  "dependencies": {
+    "enabledAdvancedServices": [{
+      "userSymbol": "Gmail",
+      "serviceId": "gmail",
+      "version": "v1"
+    }],
+    "libraries": [{
+      "userSymbol": "OAuth2",
+      "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+      "version": "26"
+    }]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/gmail.addons.execute",
+    "https://www.googleapis.com/auth/userinfo.email",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.locale",
+    "https://www.googleapis.com/auth/script.storage",
+    "https://www.googleapis.com/auth/contacts.readonly",
+    "https://mail.google.com/"
+  ],
+  "urlFetchWhitelist": [
+    "https://www.google.com/",
+    "https://www.googleapis.com/"
+  ],
+  "gmail": {
+    "name": "Email Studio",
+    "logoUrl": "https://i.imgur.com/lZUpBFx.png",
+    "contextualTriggers": [{
+      "unconditional": {},
+      "onTriggerFunction": "buildAddOn"
+    }],
+    "authorizationCheckFunction": "actionCheckAccess",
+    "useLocaleFromApp": true,
+    "primaryColor": "#4285F4",
+    "secondaryColor": "#4285F4",
+    "openLinkUrlPrefixes": [
+      "https://mail.google.com/",
+      "https://digitalinspiration.com/",
+      "https://www.labnol.org/",
+      "https://emailstudio.pro/"
+    ],
+    "universalActions": [
+      {
+        "text": "Digital Inspiration",
+        "openLink": "https://digitalinspiration.com/"
+      }, 
+      {
+        "text": "Help and Support",
+        "openLink": "https://digitalinspiration.com/support"
+      },
+      {
+        "text": "Privacy Policy",
+        "openLink": "https://digitalinspiration.com/privacy"
+      },
+      {
+        "text": "Developer Logs",
+        "runFunction": "runBackgroundSendDebugLogs"
+      }
+    ]
+  }
+}
