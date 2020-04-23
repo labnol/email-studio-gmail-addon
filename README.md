@@ -1,8 +1,10 @@
 # Email Studio for Gmail :star: :bulb:
 
-[**Email Studio for Gmail**](https://emailstudio.pro) adds more power :muscle: to your Gmail mailbox. The add-on is developed by [Google Developer Expert](https://www.labnol.org/about/) :man: with [Google Apps Script](https://www.labnol.org/internet/google-scripts/28281/)for [Digital Inspiration](https://digitalinspiration.com/). 
+[**Email Studio for Gmail**](https://emailstudio.pro) adds more power :muscle: to your Gmail mailbox. 
 
-You can use Email Studio inside the Gmail website as well as the Gmail app for Android. Here's a list of features that are packed inside Email Studio.
+The Gmail add-on is developed by [Google Developer Expert](https://www.labnol.org/about/) :man: with [Google Apps Script](https://www.labnol.org/internet/google-scripts/28281/) for [Digital Inspiration](https://digitalinspiration.com/). 
+
+You can use Email Studio on the desktop and your mobile phone. Here's a list of features that are packed inside Email Studio.
 
 ### :white_check_mark: Email Merge
 Send **personalized** email messages to multiple Google Contacts from a single draft message in Gmail.
