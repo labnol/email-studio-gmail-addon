@@ -1,6 +1,6 @@
 # Email Studio for Gmail :star: :bulb:
 
-[**Email Studio for Gmail**](https://gsuite.google.com/marketplace/app/email_studio/60106804857) adds more power :muscle: to your Gmail mailbox. The add-on is developed by [Amit Agarwal](https://ctrlq.org/) :man: for [Digital Inspiration](https://digitalinspiration.com/). 
+[**Email Studio for Gmail**](https://emailstudio.pro) adds more power :muscle: to your Gmail mailbox. The add-on is developed by [Google Developer Expert](https://www.labnol.org/about/) :man: with [Google Apps Script](https://www.labnol.org/internet/google-scripts/28281/)for [Digital Inspiration](https://digitalinspiration.com/). 
 
 You can use Email Studio inside the Gmail website as well as the Gmail app for Android. Here's a list of features that are packed inside Email Studio.
 
@@ -25,11 +25,7 @@ Auto-sweep emails, archive, delete or move them to different folders based on th
 ### :white_check_mark: Email Unsubscriber
 Automatically **unsubscribe from bulk emails** and mailing lists in Gmail
 
-# Google Add-ons :rocket:
-
-The Gmail add-on is developed by [Amit Agarwal](https://ctrlq.org/) with [Google Apps Script](https://www.labnol.org/internet/google-scripts/28281/). You can use the [Apps Script Starter Kit](https://github.com/labnol/apps-script-starter) to quickly setup your own ES6 development environment inside Visual Studio Code.
-
-### :point_right: [Install Email Studio for Gmail](https://gsuite.google.com/marketplace/app/email_studio/60106804857) :point_left:
+### :point_right: [Install Email Studio for Gmail](https://emailstudio.pro) :point_left:
 
 At [Digital Inspiration](https://digitalinspiration.com), we build Google add-ons that use the capabilities and the features of GSuite for automating business processes and driving business productivity. Some of our popular add-ons include:
 
